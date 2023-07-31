@@ -1,0 +1,469 @@
+.container {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('./images/community1.jpg');
+    background-size: auto;
+    background-position: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.booking-line {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.lion-animation {
+    position: absolute;
+    top: -40px; /* Position the lion animation above the booking-line */
+    right: 0;
+    width: 50px; /* Adjust the lion image width as needed */
+    height: 50px; /* Adjust the lion image height as needed */
+    animation: lionWalk 5s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+
+@keyframes lionWalk {
+    0% {
+        right: 0; /* Start the lion from the right end */
+    }
+    100% {
+        right: calc(100% - 50px); /* Move the lion to the left end */
+    }
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a5897;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+
+.dance-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/dance-content.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 100vh;
+    background-color: #0e0f0d;
+}
+
+.dance-text {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+}
+
+.dance-text h1 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+.dance-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40px;
+}
+
+.move-left{
+    margin-right: 600px;
+    color: blueviolet;
+}
+
+.dance-text li {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #bcee0a;
+}
+  
+  .booking-content input,
+  .booking-content textarea {
+    display: block;
+    width: 280px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    left: 25px;
+    padding: 5px;
+    font-family: Trebuchet MS;
+    background: none;
+    color: #ccc;
+    justify-content: center;
+  }
+
+  ::placeholder{
+    color: #f9f2f2;
+  }
+body {
+    font-family: 'Helvetica', sans-serif;
+    /* color:  #c2c6b2; */
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #bcee0a;
+}
+
+.footer_heading {
+    font-family: 'Snell Roundhand, cursive';
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.paragraph{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40px;
+    color: #bcee0a;
+}
+
+.footer_heading span {
+    font-family: 'Trattatello, fantasy';
+    color: #120c09;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-flex p {
+    margin: 10px;
+    color: #130606;
+}
+
+.Subscription {
+    margin-top: 20px;
+    color: #090808;
+}
+
+.input-container {
+    display: inline;
+    align-items: center;
+}
+
+#email_sending{
+    display: flex;
+}
+
+.input-container input {
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 200px;
+}
+
+.input-container button {
+    padding: 8px;
+    background-color: #1a5897;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.input-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Styling for social icons */
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Styling for heading */
+.heading {
+    display: inline;
+}
+
+
+
+.footer-content {
+    width: 150%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-line {
+    width: 200%;
+    height: 1px;
+    background-color: black; 
+    margin-top: 20px; 
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 14px;
+    max-width: 1000px; 
+}
+
+.content-head1{
+    color: #1e077c;
+}
+
+.content-head2{
+    color: #1e077c;
+    font-weight: 2000;
+}
+
+.footer-text span {
+    font-size: 18px; 
+    padding-right: 5px; 
+}
+
+.footer-text .footer-left {
+    text-align: left;
+}
+
+.footer-text .footer-right {
+    text-align: right;
+    padding-left: 20px;
+}
+
+/* Responsive Styling */
+
+@media screen and (max-width: 768px) {
+    .footer-flex {
+        flex-direction: column;
+    }
+
+    .Subscription {
+        text-align: center;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input-container input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-icons a {
+        margin-bottom: 5px;
+    }
+
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-text p {
+        margin: 5px 0;
+    }
+
+        .dance-text h1 {
+            font-size: 30px;
+        }
+    
+        .dance-text h2 {
+            font-size: 20px;
+        }
+    
+        .dance-text li {
+            font-size: 16px;
+        }
+    
+}
+
+.booking-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #0e0f0d;
+    background-image: url('./images/pic.png');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.booking-box {
+    width: 80%; /* Set the width of the box to occupy 80% of the page */
+    padding: 20px; /* Add some padding to the box (optional) */
+    background-color: rgba(17, 14, 14, 0.9); /* Set the background color of the box */
+}
+
+/* Add the following styles for the input and textarea elements */
+.booking-box input,
+.booking-box textarea {
+    width: 300%;
+    padding: 8px;
+    border: none; 
+    border-radius: 4px;
+    margin-bottom: 10px;
+    outline: none; 
+    background-color: #151212; /* Set the background color of the input elements */
+}
+
+
+
+
+.booking-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.booking-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ .booking-form {
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+.booking-form input,
+.booking-form textarea {
+    padding: 8px;
+    border: none; /* Remove the border */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    outline: none; /* Remove the default outline when focused */
+}
+
+/* Add the following styles for placeholder color (optional) */
+.booking-form input::placeholder,
+.booking-form textarea::placeholder {
+    color: #140b0b; /* Change the color of the placeholder text if needed */
+}
+
+.no-border{
+    border: 0;
+}
+.booking-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.booking-header p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input,
+.input-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.AddYourContent{
+    margin-right: 800px;
+}
+
+.booking-line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #1a5897;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.booking-line {
+    border-bottom: 1px  #131010;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1a5897;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .booking-content {
+        max-width: 90%;
+    }
+}
